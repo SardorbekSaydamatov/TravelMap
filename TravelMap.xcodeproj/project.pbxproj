@@ -6,17 +6,38 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		84A5A7E32CDB47C700741870 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A7D82CDB47C700741870 /* Location.swift */; };
+		84A5A7E42CDB47C700741870 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A7DF2CDB47C700741870 /* ContentView.swift */; };
+		84A5A7E52CDB47C700741870 /* TravelMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A7E12CDB47C700741870 /* TravelMapApp.swift */; };
+		84A5A7E62CDB47C700741870 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A5A7DA2CDB47C700741870 /* Preview Assets.xcassets */; };
+		84A5A7E72CDB47C700741870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A5A7DE2CDB47C700741870 /* Assets.xcassets */; };
+		84A5A7EA2CDB484000741870 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A7E92CDB484000741870 /* LocationsDataService.swift */; };
+		84A5A7EC2CDB491A00741870 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A7EB2CDB491A00741870 /* LocationsView.swift */; };
+		84A5A7EE2CDB499600741870 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A7ED2CDB499600741870 /* LocationsViewModel.swift */; };
+		84A5A7F02CDB8F9400741870 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A7EF2CDB8F9400741870 /* LocationsListView.swift */; };
+		84A5A7F22CDBA43300741870 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A7F12CDBA43300741870 /* LocationPreviewView.swift */; };
+		84A5A7F42CDDD75900741870 /* LocationMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A7F32CDDD75900741870 /* LocationMarkerView.swift */; };
+		84A5A7F62CDDDDD200741870 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A7F52CDDDDD200741870 /* LocationDetailView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		84A5A7BF2CDB3F8800741870 /* TravelMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A5A7D82CDB47C700741870 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		84A5A7DA2CDB47C700741870 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84A5A7DE2CDB47C700741870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A5A7DF2CDB47C700741870 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84A5A7E02CDB47C700741870 /* TravelMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TravelMap.entitlements; sourceTree = "<group>"; };
+		84A5A7E12CDB47C700741870 /* TravelMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelMapApp.swift; sourceTree = "<group>"; };
+		84A5A7E92CDB484000741870 /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		84A5A7EB2CDB491A00741870 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		84A5A7ED2CDB499600741870 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		84A5A7EF2CDB8F9400741870 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		84A5A7F12CDBA43300741870 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		84A5A7F32CDDD75900741870 /* LocationMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMarkerView.swift; sourceTree = "<group>"; };
+		84A5A7F52CDDDDD200741870 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		84F3997F2CDF393B00C55918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		84A5A7C12CDB3F8800741870 /* TravelMap */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TravelMap;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		84A5A7BC2CDB3F8800741870 /* Frameworks */ = {
@@ -32,7 +53,7 @@
 		84A5A7B62CDB3F8800741870 = {
 			isa = PBXGroup;
 			children = (
-				84A5A7C12CDB3F8800741870 /* TravelMap */,
+				84A5A7E22CDB47C700741870 /* TravelMap */,
 				84A5A7C02CDB3F8800741870 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +64,67 @@
 				84A5A7BF2CDB3F8800741870 /* TravelMap.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		84A5A7D92CDB47C700741870 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84A5A7D82CDB47C700741870 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84A5A7DB2CDB47C700741870 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84A5A7DA2CDB47C700741870 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84A5A7DC2CDB47C700741870 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84A5A7ED2CDB499600741870 /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		84A5A7DD2CDB47C700741870 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84A5A7EB2CDB491A00741870 /* LocationsView.swift */,
+				84A5A7F52CDDDDD200741870 /* LocationDetailView.swift */,
+				84A5A7F32CDDD75900741870 /* LocationMarkerView.swift */,
+				84A5A7F12CDBA43300741870 /* LocationPreviewView.swift */,
+				84A5A7EF2CDB8F9400741870 /* LocationsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84A5A7E22CDB47C700741870 /* TravelMap */ = {
+			isa = PBXGroup;
+			children = (
+				84F3997F2CDF393B00C55918 /* Info.plist */,
+				84A5A7DF2CDB47C700741870 /* ContentView.swift */,
+				84A5A7E82CDB481300741870 /* DataService */,
+				84A5A7DC2CDB47C700741870 /* ViewModels */,
+				84A5A7DD2CDB47C700741870 /* Views */,
+				84A5A7D92CDB47C700741870 /* Models */,
+				84A5A7DE2CDB47C700741870 /* Assets.xcassets */,
+				84A5A7DB2CDB47C700741870 /* Preview Content */,
+				84A5A7E02CDB47C700741870 /* TravelMap.entitlements */,
+				84A5A7E12CDB47C700741870 /* TravelMapApp.swift */,
+			);
+			path = TravelMap;
+			sourceTree = "<group>";
+		};
+		84A5A7E82CDB481300741870 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				84A5A7E92CDB484000741870 /* LocationsDataService.swift */,
+			);
+			path = DataService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +141,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				84A5A7C12CDB3F8800741870 /* TravelMap */,
 			);
 			name = TravelMap;
 			packageProductDependencies = (
@@ -109,6 +188,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A5A7E62CDB47C700741870 /* Preview Assets.xcassets in Resources */,
+				84A5A7E72CDB47C700741870 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +200,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A5A7EA2CDB484000741870 /* LocationsDataService.swift in Sources */,
+				84A5A7F02CDB8F9400741870 /* LocationsListView.swift in Sources */,
+				84A5A7F42CDDD75900741870 /* LocationMarkerView.swift in Sources */,
+				84A5A7F22CDBA43300741870 /* LocationPreviewView.swift in Sources */,
+				84A5A7EE2CDB499600741870 /* LocationsViewModel.swift in Sources */,
+				84A5A7E32CDB47C700741870 /* Location.swift in Sources */,
+				84A5A7EC2CDB491A00741870 /* LocationsView.swift in Sources */,
+				84A5A7E42CDB47C700741870 /* ContentView.swift in Sources */,
+				84A5A7F62CDDDDD200741870 /* LocationDetailView.swift in Sources */,
+				84A5A7E52CDB47C700741870 /* TravelMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +343,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelMap/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -260,8 +352,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -291,6 +383,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelMap/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -299,8 +392,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
